@@ -2,8 +2,9 @@
 
 <head>
     <meta charset="UTF-8">
-<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> -->
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; shrink-to-fit" />
+    <!--     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> -->
+    <meta name="viewport"
+        content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; shrink-to-fit" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="relicon.png" type="image/gif">
     <title>Mitesh Bhatt</title>
@@ -53,7 +54,7 @@
         }
 
         .brand-logo {
-            padding-top:2px;
+            padding-top: 2px;
             font-size: 22px !important;
         }
 
@@ -72,7 +73,6 @@
         }
 
         /*Black color to the text*/
-
         .tabs .tab a:hover {
             background-color: #e5f1f8 !important;
             color: #000 !important;
@@ -80,7 +80,6 @@
         }
 
         /*Text color on hover*/
-
         .nav-links:hover {
             background-color: #e5f1f8 !important;
             color: #4e9dd1 !important;
@@ -94,7 +93,6 @@
         }
 
         /*Background and text color when a tab is active*/
-
         .tabs .indicator {
             background-color: #fff !important;
         }
@@ -224,11 +222,15 @@
         }
 
         .carousel .carousel-item {
-            width: 330px !important;
-            color:black !important;
+            color: black !important;
+            padding: 20px;
+            width:400px;
         }
-        .carousel{
-            height:500px !important;
+
+        .carousel { 
+            padding: 0;
+            margin: 0;
+            min-height: 600px;
         }
 
         div h2 {
@@ -642,7 +644,7 @@
     </section>
 
     <section class="oddsection scrollspy" id="participations">
-        <div class="container">
+        <div class="">
 
             <div style="padding-bottom: 20px;">
                 <center>
@@ -651,62 +653,60 @@
             </div>
 
             <div class="row">
-                <div class="col s12">
-                    <div class="tabs">
+                <div class="tabs col s12">
                         <li class="tab col s12 l4"><a href="#achivement">Achivement</a></li>
                         <li class="tab col s12 l4"><a href="#conference">Conference</a></li>
                         <li class="tab col s12 l4"><a href="#ivs">IVs</a></li>
-                    </div>
                 </div>
 
                 <div id="achivement" class="col s12">
-                    <div class="carousel" style="padding:0 ">
-                        <a class="carousel-item" href="#five!"><img src="nirman.jpg"><span>1st rank in BUILD IT
-                                competition,<br>NIRMAAN’13, B. H. Gardi College, Rajkot<br>2013</span></a>
-                        <a class="carousel-item" href="#two!"><img src="architecturalmodel.jpg"><span>2nd rank in
-                                ARCHITECTURAL MODEL,<br>B. H. Gardi College, Rajkot<br>2014</span></a>
-                        <a class="carousel-item" href="#three!"><img src="posterpresentation.jpg"><span>1st rank in
-                                POSTER PRESENTATION,<br>B. H. Gardi College, Rajkot<br>2014</span></a>
-                        <a class="carousel-item" href="#four!"><img src="paperpresentation.jpg"><span>Presented M.Tech
-                                Dissertation paper,<br>International conference (IC-RACEID) at Nagpur,
+                    <div class="carousel">
+                        <a class="carousel-item center" href="#five!"><img src="nirman.jpg"><span>1st rank<br>BUILD IT
+                                competition<br>NIRMAAN’13<br>B. H. Gardi College, Rajkot<br>2013</span></a>
+                        <a class="carousel-item center" href="#two!"><img src="architecturalmodel.jpg"><span>2nd rank<br>
+                                ARCHITECTURAL MODEL<br>B. H. Gardi College, Rajkot<br>2014</span></a>
+                        <a class="carousel-item center" href="#three!"><img src="posterpresentation.jpg"><span>1st rank<br>
+                                POSTER PRESENTATION<br>B. H. Gardi College, Rajkot<br>2014</span></a>
+                        <a class="carousel-item center" href="#four!"><img src="paperpresentation.jpg"><span>Presented M.Tech
+                                Dissertation paper<br>International conference (IC-RACEID)<br>Nagpur,
                                 India.<br>2019</span></a>
-                        <a class="carousel-item" href="#five!"><img src="bottlehouse.jpg"><span>Made BOTTLE HOUSE,
-                                Engineering Youth Fiesta,<br>B. H. Gardi College, Rajkot<br>2014</span></a>
-                        <a class="carousel-item" href="#one!"><img src="etender.jpg"
-                                class="responsive-img"><span>eTender
-                                Lab website Award<br>Association for Civil
-                                Engineering Development, Pune<br>2018</span></a>
+                        <a class="carousel-item center" href="#five!"><img src="bottlehouse.jpg"><span>Made BOTTLE HOUSE<br>
+                                Engineering Youth Fiesta<br>B. H. Gardi College, Rajkot<br>2014</span></a>
+                        <a class="carousel-item center" href="#one!"><img src="etender.jpg"
+                                class="responsive-img"><span>Awarded for eTender
+                                Lab website<br>Association for Civil
+                                Engineering<br>Development,Pune<br>2018</span></a>
                     </div>
                 </div>
                 <div id="conference" class="col s12">
                     <div class="carousel">
-                        <a class="carousel-item" href="#four!"><img src="svnit.jpg"><span>Advances in Testing
-                                Methodology
-                                and Techniques,<br>SVNIT<br> 2016</span></a>
-                        <a class="carousel-item" href="#five!"><img src="gtu.jpg"><span>Workshop on STATE OF ART <br>IN
+                        <a class="carousel-item  center" href="#four!"><img src="svnit.jpg"><span>Advances in Testing
+                                Methodology<br>
+                                and Techniques for Engineered <br>Materials, SVNIT<br>2016</span></a>
+                        <a class="carousel-item center" href="#five!"><img src="gtu.jpg"><span>Workshop on <br>STATE OF ART IN<br>
                                 DIGITAL
-                                SURVEYING<br>BHGCET during GTU TECHFEST<br>2016</span></a>
-                        <a class="carousel-item" href="#one!"><img src="nicmar.jpg"><span>Workshop on Construction,
+                                SURVEYING<br>BHGCET, GTU TECHFEST<br>2016</span></a>
+                        <a class="carousel-item center" href="#one!"><img src="nicmar.jpg"><span>Workshop on <br>Construction,
                                 RealEstate, <br>Infrastructure and Project (CRIP)
-                                Management, <br>NICMAAR,PUNE. 2017</span></a>
-                        <a class="carousel-item" href="#two!"><img src="cemcon17.jpg"><span>CEMCON’17
-                                <br>Fast track Infrastructure Development<br>2017</span></a>
-                        <a class="carousel-item" href="#three!"><img src="cemcon18.jpg"><span>CEMCON’18
+                                <br>Management, NICMAAR,PUNE<br>2017</span></a>
+                        <a class="carousel-item center" href="#two!"><img src="cemcon17.jpg"><span>CEMCON’17
+                                <br>Fast track <br>Infrastructure Development<br>2017</span></a>
+                        <a class="carousel-item center" href="#three!"><img src="cemcon18.jpg"><span>CEMCON’18
                                 <br>Defect free Constructions<br>2018</span></a>
                     </div>
                 </div>
                 <div id="ivs" class="col s12">
                     <div class="carousel">
-                        <a class="carousel-item" href="#one!"><img src="bhateraje.jpg"><span>Bhate-Raje’s India
-                                <br>Infrastructure Pvt. Ltd., wagholi</span></a>
-                        <a class="carousel-item" href="#two!"><img src="ultratechsurat.jpg"><span>Ultratech Cement,
-                                <br>Surat</span></a>
-                        <a class="carousel-item" href="#three!"><img src="worldlargestdome.png"><span>World Largest DOME
+                        <a class="carousel-item center" href="#one!"><img src="bhateraje.jpg"><span>Bhate-Raje’s India<br>
+                                Infrastructure Pvt. Ltd.,<br>wagholi</span></a>
+                        <a class="carousel-item center" href="#two!"><img src="ultratechsurat.jpg"><span>Ultratech Cement,<br>
+                                Surat</span></a>
+                        <a class="carousel-item center" href="#three!"><img src="worldlargestdome.png"><span>World Largest DOME
                                 <br>
-                                MIT ADT University, Loni</span></a>
-                        <a class="carousel-item" href="#four!"><img src="royalorangecity.jpg"
+                                MIT ADT University<br>Loni</span></a>
+                        <a class="carousel-item center" href="#four!"><img src="royalorangecity.jpg"
                                 height="300px;"><span>Royal Orange
-                                County<br>(Green Building Technologies),<br>Rahatni</span></a>
+                                County<br>(Green Building Technologies)<br>Rahatni</span></a>
                     </div>
                 </div>
             </div>
@@ -823,7 +823,6 @@
     <!-- <script src="http://materializecss.com/templates/starter-template/js/init.js"></script> -->
 
     <script>
-
         $(document).ready(function () {
             $('.scrollspy').scrollSpy();
         });
@@ -839,11 +838,9 @@
         $(document).ready(function () {
             $('.tabs').tabs();
         });
-
         $(document).ready(function () {
             $('.collapsible').collapsible();
         });
-
         $(document).ready(function () {
             $('.sidenav')
                 .sidenav()
@@ -851,7 +848,6 @@
                     $('.sidenav').sidenav('close');
                 });
         });
-
         $("#button").on("click", function () {
             $("body").animate({ scrollTop: 0, behavior: 'smooth' }, 2000);
         });
