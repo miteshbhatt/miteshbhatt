@@ -264,6 +264,9 @@
         .softwareicon {
             transform: scale(2);
         }
+        .transparent{
+            box-shadow: none !important;
+        }
     </style>
 </head>
 
@@ -272,7 +275,7 @@
     <!-- Landing Page -->
     <header class="navbar-fixed" class="scrollspy">
         <!-- Navbar -->
-        <nav>
+        <nav class="transparent">
             <div class="nav-wrapper container">
                 <img src="dp.jpg" style="margin-top:12px;border-radius:20px;width:40px;height:40px;" />
                 <a href="" id="button" class="brand-logo">&nbsp;Mitesh Bhatt</a>
@@ -1030,7 +1033,7 @@
 
         // Navbar logic
         $(window).scroll(function () {
-            if ($(window).scrollTop() <= 50) {
+            if ($(window).scrollTop() <= 500) {
                 $('.brand-logo').css('color', '');
                 $('.nav-links').css('color', '');
                 $('nav').removeClass('white');
